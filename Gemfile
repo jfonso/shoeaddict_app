@@ -61,4 +61,5 @@ end
 
 gem 'puma'
 
+gem 'carrierwave'
 
