@@ -34,6 +34,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :test do
   gem 'capybara'
+  # Poltergeist is a driver for Capybara.
+  # It allows you to run your Capybara tests on a headless WebKit...
+  gem 'poltergeist'
+  gem 'phantomjs', :require => 'phantomjs/poltergeist'
 end
 
 group :development, :test do
