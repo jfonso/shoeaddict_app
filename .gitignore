@@ -24,3 +24,4 @@ doc/
 .ruby-*
 .secret
 /.idea/
+public/uploads
