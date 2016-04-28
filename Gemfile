@@ -64,3 +64,5 @@ gem 'puma'
 gem 'carrierwave'
 gem 'mini_magick'
 
+
+
